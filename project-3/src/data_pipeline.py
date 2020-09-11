@@ -1,8 +1,8 @@
+import os
+from sqlalchemy import create_engine
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
-
-# TODO to create SQL class for reading and writing to DB
 
 def data_ingest():
     """To ingest csv file and write back to sqlite file"""
